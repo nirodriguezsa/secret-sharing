@@ -6,8 +6,8 @@ import { welcome } from './welcome';
 async function bootstrap() {
   const logger = new Logger();
   const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
-  logger.log(`Running in port ${process.env.PORT}`)
+  await app.listen(process.env.PORT);
+  logger.log(`Running in port ${process.env.PORT} my friend!`)
   welcome()
 }
 bootstrap();

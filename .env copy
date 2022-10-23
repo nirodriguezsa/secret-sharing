@@ -1,0 +1,3 @@
+#App 
+PORT=3055
+X_APPLICATION_ID=secret-sharing-ms
