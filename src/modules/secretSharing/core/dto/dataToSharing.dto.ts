@@ -1,4 +1,4 @@
-export class dataToSharing{
+export class DataToSharing {
   password: string;
   parts: number;
   needs: number
